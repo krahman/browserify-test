@@ -9,6 +9,7 @@
   "author": "khal.rahman@gmail.com",
   "license": "MIT",
   "dependencies": {
+    "faker": "^2.1.2",
     "lodash": "^3.8.0"
   },
   "devDependencies": {
