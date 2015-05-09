@@ -1,3 +1,8 @@
-var dep = require('./dep');
+var dep = require('./dep'), 
+    _ = require('lodash');
 
-console.log(dep);
+var uppers = _.map(dep, function(str){
+   return str.toUpperCase();
+});
+
+console.log(uppers);
