@@ -2,7 +2,11 @@
 	"apps": [{
 		"name": "Server1", 
 		"script": "server.js",
-		"log_file": "/var/log/pm2/server1.log"
+		"log_file": "/var/log/pm2/server1.log",
+		"watch": true,
+		"env": {
+			"NODE_ENV": "production"
+		}
 	},
 	{
 		"name": "Server2",
